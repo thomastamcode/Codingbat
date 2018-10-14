@@ -1,0 +1,14 @@
+public String delDel(String str) {
+  
+        
+        String result="";
+        int len=str.length();
+        if(!str.contains("del")){
+            return str;}
+        else if (str.indexOf("del")==1){
+            int pos=str.indexOf("del");
+            result = str.substring(0,pos)+str.substring(pos+3,len);
+        }else {return str;} 
+        
+        return result;
+}
