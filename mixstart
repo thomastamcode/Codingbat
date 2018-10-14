@@ -1,0 +1,9 @@
+public boolean mixStart(String str) {
+   if(!str.contains("ix")){
+          return false;
+      }else if ((str.substring(1,2).equals("i"))&&(str.substring(2,3).equals("x"))){
+          return true;
+
+        }
+        return false;
+}
