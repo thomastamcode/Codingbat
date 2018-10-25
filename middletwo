@@ -1,0 +1,13 @@
+
+    public String middleTwo(String str) {
+        int len=str.length();
+        double half=0;
+        if(len%2==0) {half=len/2;}
+        else{half=len/2+0.5;}
+
+        int finalhalf=(int)(half);
+
+
+
+        return str.substring(finalhalf-1,finalhalf+1);
+    }
